@@ -8,6 +8,20 @@ Using Java, a multithreaded bus simulation has been created that showcase thread
 | Thread Interference | Solved |
 | Atomicity of Operations | Solved |
 | Preventing Slipped Conditions | Solved |
+| Synchronisation Performance Overhead | Minimized |
+| Graceful Shutdown via/ Poison Pill | Applied |
+
+| java.util.concurrent| Applied |
+| ------------- |-------------|
+| synchronized code-blocks| Yes |
+| CountDownLatch | Yes |
+| Atomic Variables | Yes |
+| ReentrantLocks | Yes |
+| BlockingQueues | Yes |
+| BlockingDequeus | Yes |
+| Semaphores | Yes |
+| volatile | Yes |
+| Others? | Not needed |
 
 ## A video presentation on this application
 Click the video image below to be re-directed to a YouTube video. <br />
